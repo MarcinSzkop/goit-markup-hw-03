@@ -29,13 +29,11 @@ ul > li {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     border-radius: 4px;
-    line-height: 30px;
     border: none;
     color: #FFFFFF;
     background: #2196F3;
@@ -44,16 +42,19 @@ ul > li {
 
 /* Logo & Navigation */
 
+.navigation-bg {
+    display: flexbox;
+    align-items: center;
+}
+
 .navigation {
     font-family: 'Raleway';
     font-weight: 700px;
     font-size: 26px;
-    height: 80px;
 }
 
 .navigation a {
     text-decoration: none;
-    display:block;
 }
 
 .logo-studio {
@@ -93,6 +94,7 @@ ul > li {
     line-height: 16px;
     letter-spacing: 0.02em;
     padding-right: 50px;
+    margin: 32px;
 }
 
 .menu a{
@@ -186,6 +188,11 @@ ul > li {
     font-size: 36px;
     text-align: center;
     color: #212121;
+}
+
+.our-team-section-figure {
+    width: 270px;
+    height: 368px;
 }
 
 .our-team-section-list {
