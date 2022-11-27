@@ -1,15 +1,28 @@
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul > li {
+    float:left;
+  }
+
 /* Slider */
 
 .slider {
     font-family: 'Roboto';
     font-style: normal;
+    background: #2F303A;
 }
 
 .slider h1 {
     font-weight: 900;
     font-size: 44px;
+    width: 696px;
+    height: 120px;
     color: #FFFFFF;
-    background: #2F303A;
+    text-align: center;
 }
 
 .slider-button {
@@ -35,10 +48,12 @@
     font-family: 'Raleway';
     font-weight: 700px;
     font-size: 26px;
+    height: 80px;
 }
 
 .navigation a {
     text-decoration: none;
+    display:block;
 }
 
 .logo-studio {
@@ -55,6 +70,29 @@
     font-weight: 500;
     font-size: 14px;
     color: #212121;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 46px;
+}
+
+.nav-contact-email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+}
+
+.nav-contact-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
 }
 
 .menu a{
@@ -94,17 +132,25 @@
 
 .articles-section-list { 
     list-style: none;
+    width: 1200px;
+    padding: 15px;
   }
   
   .articles-section h3 {
     font-weight: 700;
     font-size: 14px;
+    width: 270px;
+    height: 16px;
+    padding-left: 30px;
     color: #212121;
   }
   
   .articles-section p {
     font-weight: 400;
     font-size: 14px;
+    width: 270px;
+    height: 75px;
+    padding-left: 30px;
     color: #757575;
 }
 
@@ -122,6 +168,7 @@
 .what-we-do h2 {
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
     color: #212121;
 }
 
@@ -130,11 +177,14 @@
 .our-team-section {
     font-family: 'Roboto';
     font-style: normal;
+    height: 648px;
+    background: #F5F4FA;
 }
 
 .our-team-section h2 {
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
     color: #212121;
 }
 
@@ -216,6 +266,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    height: 252px;
     background: #2F303A;
 }
 
