@@ -4,16 +4,27 @@
     margin: 0 auto;
 }
 
+.section {
+    padding: 94px 0;
+ }
+
 ul > li {
     float:left;
   }
 
 /* Slider */
 
+.slider-bg {
+    height: 600px;
+    background: #2F303A;
+}
+
 .slider {
     font-family: 'Roboto';
     font-style: normal;
-    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    align-self: center;
 }
 
 .slider h1 {
@@ -43,6 +54,9 @@ ul > li {
 /* Logo & Navigation */
 
 .navigation-bg {
+    height: 80px;
+    left: 0px;
+    top: 0px;
     display: flexbox;
     align-items: center;
 }
@@ -85,7 +99,7 @@ ul > li {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    padding-right: 50px;
+    padding-left: 371px;
 }
 
 .nav-contact-phone {
@@ -130,12 +144,13 @@ ul > li {
 .articles-section {
     font-family: 'Roboto';
     font-style: normal;
+    padding-left: 120px;
 }
 
 .articles-section-list { 
     list-style: none;
-    width: 1200px;
-    padding: 15px;
+    width: 1170px;
+    height: 101px;
   }
   
   .articles-section h3 {
@@ -161,6 +176,9 @@ ul > li {
 .what-we-do {
     font-family: 'Roboto';
     font-style: normal;
+    width: 1170px;
+    height: 386px;
+    padding-top: 94px;
 }
 
 .what-we-do-list {
@@ -176,11 +194,17 @@ ul > li {
 
 /* Section - Out team */
 
+.our-team-section-bg {
+    height: 648px;
+    background: #F5F4FA;
+}
+
 .our-team-section {
     font-family: 'Roboto';
     font-style: normal;
-    height: 648px;
-    background: #F5F4FA;
+    width: 1170px;
+    height: 368px;
+    padding-top: 94px;
 }
 
 .our-team-section h2 {
@@ -193,6 +217,7 @@ ul > li {
 .our-team-section-figure {
     width: 270px;
     height: 368px;
+    background: #FFFFFF;
 }
 
 .our-team-section-list {
@@ -268,13 +293,23 @@ ul > li {
 
 /* Footer */
 
+.footer-bg {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
 .footer {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     height: 252px;
-    background: #2F303A;
+    padding-top: 60px;
+    padding-left: 215px;
 }
 
 .footer a {
@@ -297,6 +332,7 @@ ul > li {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-top: 20px;
 }
 
 .footer-adress {
