@@ -266,6 +266,12 @@ body {
 
 .portfolio-menu {
     list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.portfolio-menu a {
+    text-decoration: none;
 }
 
 .button-portfolio {
@@ -283,6 +289,8 @@ body {
     background: #f5f4fa;
     box-shadow: none;
     transition-duration: 0.4s;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .button-portfolio:hover {
@@ -292,13 +300,15 @@ body {
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-menu a {
-    text-decoration: none;
-}
-
 /* Section - Portfolio */
 
 .portfolio {
+    display: flex;
+}
+
+.portfolio-grid {
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .portfolio-list {
@@ -307,16 +317,29 @@ body {
     line-height: 30px;
     letter-spacing: 0.03em;
     list-style: none;
+    width: calc((100% - 60px) / 3 );
 }
 
-.portfolio-name {
+.portfolio-figure {
+    width: 370px;
+    height: 404px;
+    background-color: var(--quaternary-color);
+    border: 1px solid #EEEEEE;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-list h3 {
     font-weight: 700;
     font-size: 18px;
+    margin-left: 24px;
     color: var(--tertiary-color);
 }
 
-.potfolio-subname {
+.portfolio-list p {
     font-size: 16px;
+    margin-left: 24px;
     color: var(--secundary-color);
 }
 
