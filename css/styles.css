@@ -240,12 +240,21 @@ body {
     gap: 30;
 }
 
-.our-team-section-name {
+.our-team-section-list h3 {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
     color: var(--tertiary-color);
+    padding-top: 30px;
 }
 
-.our-team-section-postion {
+.our-team-section-list p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
     color: var(--secundary-color);
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /* Section - Portfolio menu */
