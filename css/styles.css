@@ -133,6 +133,7 @@ body {
 
 .dark-bg {
     background: #2f303a;
+    background-size: auto;
 }
 
 .slider {
