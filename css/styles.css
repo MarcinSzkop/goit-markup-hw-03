@@ -228,6 +228,8 @@ body {
 
 .our-team-section-figure {
     background: var(--quaternary-color);
+    margin-left: 0px;
+    margin-right: 30px;
     gap: 50px;
 }
 
