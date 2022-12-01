@@ -195,12 +195,15 @@ body {
 
 .what-we-do-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
 .what-we-do h2 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 50px;
     color: var(--tertiary-color);
 }
 
@@ -219,16 +222,20 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 50px;
     color: var(--tertiary-color);
 }
 
 .our-team-section-figure {
     background: var(--quaternary-color);
+    gap: 50px;
 }
 
 .our-team-section-list {
     list-style: none;
     font-size: 16px;
+    display: flex;
+    gap: 30;
 }
 
 .our-team-section-name {
@@ -300,10 +307,12 @@ body {
 /* Footer */
 
 .footer {
+    padding: 60px 0;
 }
 
 .footer a {
     text-decoration: none;
+    display: flex;
 }
 
 .address {
@@ -326,6 +335,7 @@ body {
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
+    padding-top: 9px;
 }
 
 .footer-contact a {
