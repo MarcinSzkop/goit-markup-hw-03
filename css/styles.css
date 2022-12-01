@@ -133,6 +133,7 @@ body {
 
 .dark-bg {
     background: #2f303a;
+    max-width: 1600px;
 }
 
 .slider {
