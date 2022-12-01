@@ -186,6 +186,7 @@ body {
     font-size: 14px;
     color: var(--secundary-color);
     letter-spacing: 0.03em;
+    line-height: 24px;
 }
 
 /* Section - What We Do */
