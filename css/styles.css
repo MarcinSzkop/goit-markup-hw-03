@@ -109,7 +109,8 @@ body {
     cursor: pointer;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a:focus {
     color: var(--primary-color);
 }
 
@@ -125,8 +126,13 @@ body {
     color: var(--secundary-color);
 }
 
-.navigation-contact a:hover {
+.navigation-contact a:hover,
+.navigation-contact a:focus {
     color: var(--primary-color);
+}
+
+.box-frame {
+    border: 1px solid #ECECEC;
 }
 
 /* Slider */
@@ -267,11 +273,17 @@ body {
 .portfolio-menu {
     list-style: none;
     display: flex;
+    size: 100%;
     gap: 30px;
 }
 
 .portfolio-menu a {
     text-decoration: none;
+}
+
+.portfolio-menu-box {
+    margin-top: 94px;
+    justify-content: center;
 }
 
 .button-portfolio {
@@ -311,6 +323,11 @@ body {
     gap: 30px;
 }
 
+.portfolio-box {
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
 .portfolio-list {
     font-family: 'Roboto';
     font-style: normal;
@@ -322,10 +339,10 @@ body {
 
 .portfolio-figure {
     width: 370px;
-    height: 404px;
     background-color: var(--quaternary-color);
     border: 1px solid #EEEEEE;
-    margin: 0;
+    margin: 0px;
+    padding-bottom: 20px;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -382,6 +399,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact:hover {
+.footer a:hover,
+.footer a:focus {
     color: var(--primary-color);
 }
