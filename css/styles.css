@@ -33,6 +33,10 @@ body {
     padding: 94px 0;
 }
 
+img {
+    vertical-align: middle;
+  }
+
 /* HEADER */
 
 .header-wrapper > .container {
