@@ -279,7 +279,7 @@ img {
     list-style: none;
     display: flex;
     size: 100%;
-    gap: 30px;
+    gap: 8px;
 }
 
 .portfolio-menu a {
@@ -401,7 +401,7 @@ img {
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 .footer-contact a {
